@@ -3,6 +3,7 @@
   title: "PSET 0",
   student: "Alyssa P. Hacker",
   date: datetime.today(),
+  date-format: "[month repr:long] [day padding:none], [year]",
   subproblems: "1.1.a.i",
   collaborators: (),
   doc,
@@ -60,7 +61,7 @@
         text(size: 1.6em, weight: "bold")[#class -- #title \ ]
         text(size: 1.2em, weight: "semibold")[#student \ ]
         emph[
-          #date.display("[year]-[month]-[day]")
+          #date.display(date-format)
           #if collaborators != none {
             [
               \ Collaborators: #collaborators

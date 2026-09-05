@@ -19,5 +19,6 @@ The `pset` function takes the following named arguments:
 - `student` (string): Student completing the assignment.
 - `title` (string): Title of the assignment.
 - `date` (datetime): Date to be displayed on the assignment.
+- `date-format` (string): Date format string to use for displaying `date` (see [Typst docs](https://typst.app/docs/reference/foundations/datetime/) for formatting instructions)
 - `collaborators` (array of strings): Collaborators that worked on the assignment with the student. Can be `()`.
 - `subproblems` (string): Numbering scheme for the subproblems.
